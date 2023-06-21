@@ -2,4 +2,9 @@
 
 
 #include "MonhunLikeGameModeBase.h"
+#include "MainPlayer.h"
 
+AMonhunLikeGameModeBase::AMonhunLikeGameModeBase()
+{
+	DefaultPawnClass = AMainPlayer::StaticClass();
+}

@@ -14,4 +14,6 @@ class MONHUNLIKE_API AMonhunLikeGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+	AMonhunLikeGameModeBase();
 };
